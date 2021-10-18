@@ -1,0 +1,4 @@
+base45==0.4.3
+cbor2==5.4.2
+cose==0.9.dev8
+cryptography==2.8
