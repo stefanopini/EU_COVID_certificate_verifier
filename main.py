@@ -115,9 +115,9 @@ if __name__ == '__main__':
         raise ValueError('Invalid input type.')
     if args.mode == 'arg' and args.payload is None:
         raise ValueError('Missing `payload` argument.')
-    if args.mode == 'arg' and args.image_path is None:
+    if args.mode == 'image' and args.image_path is None:
         raise ValueError('Missing `image_path` argument.')
-    if args.mode == 'arg' and args.camera_id is None:
+    if args.mode == 'camera' and args.camera_id is None:
         raise ValueError('Missing `camera_id` argument.')
 
     main(args)
